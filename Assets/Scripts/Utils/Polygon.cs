@@ -114,7 +114,6 @@ public class Polygon : MonoBehaviour
                     if (edge.gameObject == hit.collider.gameObject && 
                         !edge.BoundaryPoints.Contains(v))
                         hitObject.Add(edge.gameObject);
-                        
                 }
             }
 

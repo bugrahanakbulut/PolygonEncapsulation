@@ -40,9 +40,6 @@ public class Vertex : MonoBehaviour
         
         for (int i = 0; i < edges.Count; i++)
         {
-            if (edges[i].BoundaryPoints.Contains(this))
-                continue;
-            
             float edgeV0 = Vector3.Distance(Position, edges[i].StartingPoint.Position);
             float edgeV1 = Vector3.Distance(Position, edges[i].FinishPoint.Position);
             float edgeV = Vector3.Distance(edges[i].StartingPoint.Position, edges[i].FinishPoint.Position);
