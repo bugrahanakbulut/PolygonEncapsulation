@@ -1,5 +1,5 @@
 # PolygonEncapsulation
-This repository contains the second assignment of Computational Geometry class from the Computer Animation and Game Technologies deparment of Hacettepe University, Turkey.
+This repository contains the final assignment of Computational Geometry class from the Computer Animation and Game Technologies deparment of Hacettepe University, Turkey.
 
 You can find all implementation details in report.
 
